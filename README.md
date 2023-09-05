@@ -92,3 +92,15 @@ copies an entire directory
 cp -R Desktop DevOps_folder/liwox
 ```
 ![cp R](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/b16070f4-6619-4c91-b2ea-b92772a766b4)
+
+ ## mv command
+this command moves and renames files and directories
+ ```
+mv test_file Documents
+```
+![mv](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/98900a65-9fab-445f-a470-ce2d4b2c4b8f)
+renames a files
+```
+mv DevOps devops
+```
+![mv rename](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/87fb0b63-fecf-43b9-bcd6-4884b0f9f063)
