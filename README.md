@@ -44,3 +44,23 @@ cd ~ username
 ```
 ![cd](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/688b6236-e86c-46cd-84e7-07017b5b834d)
 
+## ls command
+this command lists files and directories within a system
+```
+ls DevOps_folder
+```
+lists all files in a subdirectory
+```
+ls -R
+```
+![ls](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/bafb2267-b322-4eb2-936b-110fb8129347)
+shows hidden files
+```
+ls -a
+```
+shows file sizes
+```
+ls -lh
+```
+![ls lh](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/6fad9fb8-7716-4326-bd58-f5f4d93d78fa)
+
