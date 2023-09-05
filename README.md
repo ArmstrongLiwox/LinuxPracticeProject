@@ -77,3 +77,18 @@ display files in reverse order
 tac DevOps
 ```
 ![tac](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/2f9d2292-04d4-41a1-ba92-854c90da147a)
+merges two files into a third file
+```
+cat
+```
+## cp command
+this command copies files, directories and the content of directories
+```
+cp test_file DevOps_folder/liwox
+```
+![cp](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/db3c6008-484f-4369-8c02-062a4cf7d3bb)
+copies an entire directory
+```
+cp -R Desktop DevOps_folder/liwox
+```
+![cp R](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/b16070f4-6619-4c91-b2ea-b92772a766b4)
