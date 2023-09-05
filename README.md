@@ -64,3 +64,16 @@ ls -lh
 ```
 ![ls lh](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/6fad9fb8-7716-4326-bd58-f5f4d93d78fa)
 
+## cat command
+this command lists, combines and writes file content to the standard output
+Concatenate.
+```
+cat DevOps
+```
+![cat](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/d57b01fb-a31f-4f0f-864c-d5c733c32314)
+
+display files in reverse order
+```
+tac DevOps
+```
+![tac](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/2f9d2292-04d4-41a1-ba92-854c90da147a)
