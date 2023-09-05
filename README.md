@@ -104,3 +104,33 @@ renames a files
 mv DevOps devops
 ```
 ![mv rename](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/87fb0b63-fecf-43b9-bcd6-4884b0f9f063)
+
+## mkdir command
+this command creates one of more directories
+```
+mkdir james
+```
+![mkdir](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/b302c3e5-82b8-4d79-839e-463ee943ef0b)
+creates subdirectory
+```
+mkdir james/songe
+```
+![mkdir songe](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/1862dd5f-8be4-4b60-a754-fd4116f83978)
+create directory in between two directories
+```
+mkdir -p james/20/songe
+```
+![mkdir p](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/b7e8fbe8-22eb-462d-afe1-f3b7aa8762d7)
+
+## rmdir command
+this command deletes an empty directory
+```
+rmdir songe
+```
+![rmdir](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/c0462837-c2ad-4b0d-89fa-072b8b630265)
+remove multiple files
+```
+rmdir 20 songe
+```
+![rm 1](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/9c9b2557-c17a-4610-9c64-9270f50aed47)
+![rm 2](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/0a8fdc65-89ad-44db-956e-c52cfc6708e6)
