@@ -134,3 +134,20 @@ rmdir 20 songe
 ```
 ![rm 1](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/9c9b2557-c17a-4610-9c64-9270f50aed47)
 ![rm 2](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/0a8fdc65-89ad-44db-956e-c52cfc6708e6)
+
+
+## touch command
+this command creates an empty file
+```
+touch liwox.html
+```
+![touch](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/916c1446-7ec5-4051-9024-c86338e25dc5)
+![touch 2](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/58334dd5-a7b2-4ad6-a134-129f0ef4affb)
+
+## locate command
+this command finds a file in the datbase system
+```
+locate
+```
+![locate](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/5402fe0e-7bb4-4517-89e3-f9f63a142d01)
+>command can not be found
