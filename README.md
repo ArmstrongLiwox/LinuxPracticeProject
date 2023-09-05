@@ -31,3 +31,4 @@ or full path
 cd DevOps_folder/liwox
 ```
 ![cd](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/9b042136-447c-4b62-925e-66adcc482f9f)
+
