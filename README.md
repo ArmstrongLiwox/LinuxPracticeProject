@@ -30,5 +30,17 @@ or full path
 ```
 cd DevOps_folder/liwox
 ```
-![cd](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/9b042136-447c-4b62-925e-66adcc482f9f)
+moves up one directory
+```
+cd ..
+```
+moves to previous directory
+```
+cd -
+```
+moves to another user
+```
+cd ~ username
+```
+![cd](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/688b6236-e86c-46cd-84e7-07017b5b834d)
 
