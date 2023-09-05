@@ -151,3 +151,11 @@ locate
 ```
 ![locate](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/5402fe0e-7bb4-4517-89e3-f9f63a142d01)
 >command can not be found
+
+## find command
+this command will search for files within a specific directory
+```
+find james/ liwox.html
+```
+![find](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/8dfd9a4e-bde8-4863-b6bc-19c650b28911)
+
