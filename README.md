@@ -237,8 +237,10 @@ tar -cvf newarchive.tar /home/ubuntu
 ```
 >this command achives multiple files into a Tar file
 ![tar](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/dec4df88-6ca7-47e2-86d2-71e446e7cb21)
-<
->
+
+# LinuxPracticeProject
+# File manipulation
+## Sudo command
 #FILE PERMISSION AND OWNERSHIP
 
 ##chmod command
