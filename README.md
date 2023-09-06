@@ -194,7 +194,7 @@ du DevOps_folder/liwox/Desktop/Liwox_champ
 ```
 ![du](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/818cb167-167a-43f5-86dc-8cf544a742f9)
 
-##head command
+## head command
 >this command allows you to view the first ten lines in a text
 ```
 head test.txt
@@ -205,7 +205,7 @@ head test.txt
 head -n5 test.txt
 ```
 ![head n](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/6c742ec4-d22f-4bbb-a73c-3af87cd422a8)
-##tail command
+## tail command
 >this command displays the last ten lines of a text.
 ```
 tail test.txt
@@ -216,7 +216,7 @@ tail -n5 test.txt
 ```
 ![tail](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/f39425e0-8148-49a5-a25d-75c4fc4f19ce)
 
-##diff command
+## diff command
 >this command is used to compare two contents of a text line by line, and then display the parts that do not match
 ```
 diff liwox.html test.txt
