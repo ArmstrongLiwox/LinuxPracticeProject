@@ -1,4 +1,4 @@
-# LinuxPracticeProject __Armstrong__
+# LinuxPracticeProject ___Armstrong___
 # File manipulation
 ## Sudo command
 sudo : superuser do performs tasks requiring administartive or root permissions
