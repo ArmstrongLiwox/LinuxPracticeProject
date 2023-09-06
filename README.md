@@ -175,6 +175,67 @@ df
 df -m
 ```
 ![df](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/882b89e2-ffaa-41d3-bf7c-1970398c976f)
-```df -k```
-```df -T```
-![df t](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/df1a240b-8dab-4d35-b374-a033a7730795)
+```
+df -k
+```
+```
+df -T
+```
+```
+df -h
+```
+![df t](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/5276d262-2324-4a50-a349-e90e07daab8b)
+
+## du command
+>this command will check how much disk space a file of directory will takes up
+>it can also identify which part of the system uses the storage excessively.
+```
+du DevOps_folder/liwox/Desktop/Liwox_champ
+```
+![du](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/818cb167-167a-43f5-86dc-8cf544a742f9)
+
+##head command
+>this command allows you to view the first ten lines in a text
+```
+head test.txt
+```
+![head](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/f0d5e4c1-2877-47f6-b951-082e9543885e)
+>specify the number of lines to display
+```
+head -n5 test.txt
+```
+![head n](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/6c742ec4-d22f-4bbb-a73c-3af87cd422a8)
+##tail command
+>this command displays the last ten lines of a text.
+```
+tail test.txt
+```
+>specify how many lines to view
+```
+tail -n5 test.txt
+```
+![tail](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/f39425e0-8148-49a5-a25d-75c4fc4f19ce)
+
+##diff command
+>this command is used to compare two contents of a text line by line, and then display the parts that do not match
+```
+diff liwox.html test.txt
+```
+![diff](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/527e5048-004b-4566-99fd-a519b9bb0323)
+```
+diff -c liwox.html test.txt
+```
+![diff c](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/5fb22e3f-4d89-4052-8c96-846c01b452aa)
+```
+diff -u liwox.html test.txt
+```
+![diff u](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/d42efab1-69c1-4b13-8be4-286711f1ce6d)
+
+##tar command
+```
+tar -cvf newarchive.tar /home/ubuntu
+```
+>this command achives multiple files into a Tar file
+![tar](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/dec4df88-6ca7-47e2-86d2-71e446e7cb21)
+
+##
