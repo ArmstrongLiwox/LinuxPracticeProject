@@ -231,7 +231,7 @@ diff -u liwox.html test.txt
 ```
 ![diff u](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/d42efab1-69c1-4b13-8be4-286711f1ce6d)
 
-##tar command
+## tar command
 ```
 tar -cvf newarchive.tar /home/ubuntu
 ```
@@ -239,9 +239,8 @@ tar -cvf newarchive.tar /home/ubuntu
 ![tar](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/dec4df88-6ca7-47e2-86d2-71e446e7cb21)
 
 # FILE PERMISSION AND OWNERSHIP
-# File manipulation
-## chmod command
 
+## chmod command
 >this command changes a file of directory's read, write or execute permissions.
 ```
 chmod 777 test.txt
