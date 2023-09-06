@@ -1,13 +1,13 @@
 # LinuxPracticeProject ___Armstrong___
 # File manipulation
-1. ## Sudo command
+## 1. Sudo command
 sudo : superuser do performs tasks requiring administartive or root permissions
 ```
 sudo apt upgrade
 ```
 ![sudo apt](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/f617f391-e1f9-44d1-b7d7-6a3dffac3668)
 
-1. ## pwd command
+## 2. pwd command
 this commands finds the path of current working directory
 ```
 pwd
@@ -22,7 +22,7 @@ pwd -p
 ```
 ![pwd](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/8f73ee90-a486-4ff3-bfcc-560a2725b4d4)
 
-## cd command
+## 3. cd command
 navigates through the linus files and directories
 requies directory name 
 ```
@@ -46,7 +46,7 @@ cd ~ username
 ```
 ![cd](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/688b6236-e86c-46cd-84e7-07017b5b834d)
 
-## ls command
+## 4. ls command
 this command lists files and directories within a system
 ```
 ls DevOps_folder
@@ -66,7 +66,7 @@ ls -lh
 ```
 ![ls lh](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/6fad9fb8-7716-4326-bd58-f5f4d93d78fa)
 
-## cat command
+## 5. cat command
 this command lists, combines and writes file content to the standard output
 Concatenate.
 ```
@@ -83,7 +83,7 @@ merges two files into a third file
 ```
 cat
 ```
-## cp command
+## 6. cp command
 this command copies files, directories and the content of directories
 ```
 cp test_file DevOps_folder/liwox
@@ -95,7 +95,7 @@ cp -R Desktop DevOps_folder/liwox
 ```
 ![cp R](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/b16070f4-6619-4c91-b2ea-b92772a766b4)
 
- ## mv command
+ ## 7. mv command
 this command moves and renames files and directories
  ```
 mv test_file Documents
@@ -107,7 +107,7 @@ mv DevOps devops
 ```
 ![mv rename](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/87fb0b63-fecf-43b9-bcd6-4884b0f9f063)
 
-## mkdir command
+## 8. mkdir command
 this command creates one of more directories
 ```
 mkdir james
@@ -124,7 +124,7 @@ mkdir -p james/20/songe
 ```
 ![mkdir p](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/b7e8fbe8-22eb-462d-afe1-f3b7aa8762d7)
 
-## rmdir command
+## 9. rmdir command
 this command deletes an empty directory
 ```
 rmdir songe
@@ -137,8 +137,14 @@ rmdir 20 songe
 ![rm 1](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/9c9b2557-c17a-4610-9c64-9270f50aed47)
 ![rm 2](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/0a8fdc65-89ad-44db-956e-c52cfc6708e6)
 
+## 10. rm command
+>this command will delete files within a directory
+```
+rm DevOps
+```
+![rm](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/8cdafcc6-f91a-4f59-a3c5-ffdcec419da0)
 
-## touch command
+## 11. touch command
 this command creates an empty file
 ```
 touch liwox.html
@@ -146,7 +152,7 @@ touch liwox.html
 ![touch](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/916c1446-7ec5-4051-9024-c86338e25dc5)
 ![touch 2](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/58334dd5-a7b2-4ad6-a134-129f0ef4affb)
 
-## locate command
+## 12. locate command
 >this command finds a file in the datbase system
 ```
 locate
@@ -154,21 +160,21 @@ locate
 ![locate](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/5402fe0e-7bb4-4517-89e3-f9f63a142d01)
 >command can not be found
 
-## find command
+## 13. find command
 >this command will search for files within a specific directory
 ```
 find james/ liwox.html
 ```
 ![find](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/8dfd9a4e-bde8-4863-b6bc-19c650b28911)
 
-## grep command
+## 14. grep command
 >this command finds a word by searching through all the text in a particuar file
 ```
 grep blue liwox.html
 ```
 ![grep](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/00b8e1ad-7054-4dcf-82d1-4fdadf86d2f0)
 
-## df command
+## 15. df command
 >this command will report the system disk space usage in percentage and kilobyte
 ```
 df
@@ -188,7 +194,7 @@ df -h
 ```
 ![df t](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/5276d262-2324-4a50-a349-e90e07daab8b)
 
-## du command
+## 16. du command
 >this command will check how much disk space a file of directory will takes up
 >it can also identify which part of the system uses the storage excessively.
 ```
@@ -196,7 +202,7 @@ du DevOps_folder/liwox/Desktop/Liwox_champ
 ```
 ![du](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/818cb167-167a-43f5-86dc-8cf544a742f9)
 
-## head command
+## 17. head command
 >this command allows you to view the first ten lines in a text
 ```
 head test.txt
@@ -207,7 +213,7 @@ head test.txt
 head -n5 test.txt
 ```
 ![head n](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/6c742ec4-d22f-4bbb-a73c-3af87cd422a8)
-## tail command
+## 18. tail command
 >this command displays the last ten lines of a text.
 ```
 tail test.txt
@@ -218,7 +224,7 @@ tail -n5 test.txt
 ```
 ![tail](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/f39425e0-8148-49a5-a25d-75c4fc4f19ce)
 
-## diff command
+## 19. diff command
 >this command is used to compare two contents of a text line by line, and then display the parts that do not match
 ```
 diff liwox.html test.txt
@@ -233,7 +239,7 @@ diff -u liwox.html test.txt
 ```
 ![diff u](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/d42efab1-69c1-4b13-8be4-286711f1ce6d)
 
-## tar command
+## 20. tar command
 ```
 tar -cvf newarchive.tar /home/ubuntu
 ```
@@ -242,28 +248,28 @@ tar -cvf newarchive.tar /home/ubuntu
 
 # FILE PERMISSION AND OWNERSHIP
 
-## chmod command
+## 21. chmod command
 >this command changes a file of directory's read, write or execute permissions.
 ```
 chmod 777 test.txt
 ```
 ![chmod](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/0ca9acc0-3aa0-4374-b80c-66970faa04c7)
 
-## chown command
+## 22. chown command
 >this command will allow you to change the ownership of a file or directory
 ```
 chown vboxuser test.txt
 ```
 ![chown](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/fb8aab83-8bc9-4822-8ac6-0b3b17f3b143)
 
-## job command
+## 23. job command
 >this command displays all the running processes along with their statuses.
 ```
 job jobID
 ```
 ![job](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/6bcd43d9-fced-42ca-a19c-7626b9af478a)
 
-## kill command
+## 24. kill command
 >this command will terminate an unresponsive program manually.
 >first identify the PID (program identification number)
 ```
@@ -276,7 +282,7 @@ kill SIGKILL 1689
 ```
 ![kill sig](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/14028f66-7a59-46a6-a299-dee09c724f21)
 
-## ping command
+## 25. ping command
 >this command will check whether a network or server is reachable.
 ```
 ping google.com
@@ -286,14 +292,14 @@ ping RemoteServer
 ```
 ![ping](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/3e840cfe-6f1b-45b8-b93b-0415d79cdb3c)
 
-## wget command
+## 26. wget command
 >this command lets you download things from the internet using the wget command
 ```
 wget wordpress.org/latest.zip
 ```
 ![wget](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/497b4388-de2b-47b9-a41d-9c296a83b00e)
 
-## uname command
+## 27. uname command
 >this command will print detailed information about your liinux system and hardware.
 ```
 uname -a
@@ -306,21 +312,21 @@ uname -n
 ```
 ![uname](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/7e8b232c-b69e-4983-b063-4c714b873a4b)
 
-## top
+## 28. top
 >this command will display all the running processes and a dynamic real time view of the current system
 ```
 top
 ```
 ![top](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/9bca20b1-78d1-41dc-b010-c7adb71ebf6e)
 
-## history command
+## 29. history command
 >this command will list 500 of previously executed commands allowing you to reuse them without retyping
 ```
 history
 ```
 ![history](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/149cf194-d0f6-48c8-a882-b3c8ac2112e6)
 
-## man command
+## 30. man command
 >this command will provide the user manual of any command or utilities you can run in the terminal including name, description and options.
 ```
 man ls
@@ -331,7 +337,7 @@ man 2ls
 ![man ls](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/e76347c2-375c-4e13-a009-96be728bda06)
 ![man 2ls](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/93f4ee9b-4d68-4531-b78e-a362a8087761)
 
-## echo command
+## 31. echo command
 >this command is a built in utility that displays a line of text or string using the standard output.
 ```
 echo -e devops
@@ -344,7 +350,7 @@ echo -n devops
 ```
 ![echo](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/fd7a1c10-e1f8-4045-bd53-4b206dccb663)
 
-## zip, unzip command
+## 32. zip, unzip command
 >this command will compress files and directories into a zip file, to archive or reduce disk space usage.
 ```
 zip first.zip test.txt devops
@@ -355,7 +361,7 @@ unzip first.zip
 ```
 ![unzip](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/028f7efc-8d1d-42d9-8a32-73db18b41f9b)
 
-## hostname command
+## 33. hostname command
 >this command will show the system's hostname or ip address
 ```
 hostname
@@ -371,7 +377,7 @@ hostname -alias
 ```
 ![hostname](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/b8eeb467-aadd-4c18-b9c9-df10aa3607e0)
 
-## useradd, userdel commands
+## 34. useradd, userdel commands
 >the useradd command will create a new account
 >the passwd command allows you to add a password
 ```
@@ -379,7 +385,7 @@ useradd liwox
 ```
 ![useradd](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/7947f7fb-c1c7-4013-a9da-ebefb63b2a35)
 
-## apt-get command
+## 35. apt-get command
 >this command handles advanced package tools (APT) in Linux.
 >it lets you retrive information and bundles from authenticated sources.
 ```
@@ -387,7 +393,7 @@ apt-get update
 ```
 ![apt-get](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/01e2a2d2-905e-4d34-ba69-715aeb205dce)
 
-## nano, vi, jed commands
+## 36. nano, vi, jed commands
 >the nano command denotes keywords
 ```
 nano liwox.html
@@ -406,7 +412,7 @@ jed liwox.html
 ```
 ![jed](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/825bb395-42e2-42d4-bf8a-7b83af09f84d)
 
-## alias, unalias command
+## 37. alias, unalias command
 > this command allows you to create a shortcut with the same functionality as a command, file name or text.
 ```
 alias dv='devops'
@@ -417,14 +423,14 @@ unalias dv
 ```
 ![alias](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/589b188e-61da-472d-9096-c00df3b35971)
 
-## su command
+## 38. su command
 >the su command allows you to run a program as a different user. it is beneficial for accessing the system through SSH or GUI display when root user is unavailable.
 ```
 su
 ```
 ![su](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/8ac50819-ff2a-450e-9d74-34022fa483b6)
 
-## htop command
+## 39. htop command
 >this command monitors system resources and server processes
 >htop command has additional features and improvements than the top command
 ```
@@ -439,7 +445,7 @@ htop -h
 ![htop](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/f29429ea-b61d-48f9-be13-f5a9b128b072)
 ![htop 2](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/8938c292-173d-4153-9d27-c9504c16274e)
 
-## ps command
+## 40. ps command
 >this command produces a snapshot of all the processes on your system.
 ```
 ps -T
