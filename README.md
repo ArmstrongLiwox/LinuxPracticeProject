@@ -238,4 +238,10 @@ tar -cvf newarchive.tar /home/ubuntu
 >this command achives multiple files into a Tar file
 ![tar](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/dec4df88-6ca7-47e2-86d2-71e446e7cb21)
 
-##
+#FILE PERMISSION AND OWNERSHIP
+##chmod command
+>this command changes a file of directory's read, write or execute permissions.
+```
+chmod 777 test.txt
+```
+![chmod](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/0ca9acc0-3aa0-4374-b80c-66970faa04c7)
