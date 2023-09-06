@@ -247,4 +247,86 @@ chmod 777 test.txt
 ```
 ![chmod](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/0ca9acc0-3aa0-4374-b80c-66970faa04c7)
 
-##
+## chown command
+>this command will allow you to change the ownership of a file or directory
+```
+chown vboxuser test.txt
+```
+![chown](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/fb8aab83-8bc9-4822-8ac6-0b3b17f3b143)
+
+## job command
+>this command displays all the running processes along with their statuses.
+```
+job jobID
+```
+![job](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/6bcd43d9-fced-42ca-a19c-7626b9af478a)
+
+## kill command
+>this command will terminate an unresponsive program manually.
+>first identify the PID (program identification number)
+```
+ps ux
+```
+![kill ps](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/69427983-2370-4a63-a620-a6bf2191490b)
+
+```
+kill SIGKILL 1689
+```
+![kill sig](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/14028f66-7a59-46a6-a299-dee09c724f21)
+
+## ping command
+>this command will check whether a network or server is reachable.
+```
+ping google.com
+```
+```
+ping RemoteServer
+```
+![ping](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/3e840cfe-6f1b-45b8-b93b-0415d79cdb3c)
+
+## wget command
+>this command lets you download things from the internet using the wget command
+```
+wget wordpress.org/latest.zip
+```
+![wget](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/497b4388-de2b-47b9-a41d-9c296a83b00e)
+
+## uname command
+>this command will print detailed information about your liinux system and hardware.
+```
+uname -a
+```
+```
+uname -s
+```
+```
+uname -n
+```
+![uname](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/7e8b232c-b69e-4983-b063-4c714b873a4b)
+
+## top
+>this command will display all the running processes and a dynamic real time view of the current system
+```
+top
+```
+![top](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/9bca20b1-78d1-41dc-b010-c7adb71ebf6e)
+
+## history command
+>this command will list 500 of previously executed commands allowing you to reuse them without retyping
+```
+history
+```
+![history](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/149cf194-d0f6-48c8-a882-b3c8ac2112e6)
+
+## man command
+>this command will provide the user manual of any command or utilities you can run in the terminal including name, description and options.
+```
+man ls
+```
+```
+man 2ls
+```
+![man ls](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/e76347c2-375c-4e13-a009-96be728bda06)
+![man 2ls](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/93f4ee9b-4d68-4531-b78e-a362a8087761)
+
+## 
