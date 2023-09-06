@@ -1,6 +1,6 @@
 # LinuxPracticeProject ___Armstrong___
 # File manipulation
-## Sudo command
+## 1. Sudo command
 sudo : superuser do performs tasks requiring administartive or root permissions
 ```
 sudo apt upgrade
