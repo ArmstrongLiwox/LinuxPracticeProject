@@ -165,3 +165,16 @@ find james/ liwox.html
 grep blue liwox.html
 ```
 ![grep](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/00b8e1ad-7054-4dcf-82d1-4fdadf86d2f0)
+
+## df command
+>this command will report the system disk space usage in percentage and kilobyte
+```
+df
+```
+```
+df -m
+```
+![df](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/882b89e2-ffaa-41d3-bf7c-1970398c976f)
+```df -k```
+```df -T```
+![df t](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/df1a240b-8dab-4d35-b374-a033a7730795)
