@@ -145,7 +145,7 @@ touch liwox.html
 ![touch 2](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/58334dd5-a7b2-4ad6-a134-129f0ef4affb)
 
 ## locate command
-this command finds a file in the datbase system
+>this command finds a file in the datbase system
 ```
 locate
 ```
@@ -153,9 +153,15 @@ locate
 >command can not be found
 
 ## find command
-this command will search for files within a specific directory
+>this command will search for files within a specific directory
 ```
 find james/ liwox.html
 ```
 ![find](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/8dfd9a4e-bde8-4863-b6bc-19c650b28911)
 
+## grep command
+>this command finds a word by searching through all the text in a particuar file
+```
+grep blue liwox.html
+```
+![grep](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/00b8e1ad-7054-4dcf-82d1-4fdadf86d2f0)
