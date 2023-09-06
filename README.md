@@ -1,4 +1,4 @@
-# LinuxPracticeProject (Armstrong)
+# LinuxPracticeProject __Armstrong__
 # File manipulation
 ## Sudo command
 sudo : superuser do performs tasks requiring administartive or root permissions
@@ -454,6 +454,7 @@ ps -A
 ```
 ps -e
 ```
-![Uploading ps.png…]()
+![ps](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/6ae7b893-991d-44b0-848f-963d1077fd8d)
+
 
 # THANK YOU
