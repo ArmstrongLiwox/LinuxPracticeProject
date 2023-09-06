@@ -329,4 +329,28 @@ man 2ls
 ![man ls](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/e76347c2-375c-4e13-a009-96be728bda06)
 ![man 2ls](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/93f4ee9b-4d68-4531-b78e-a362a8087761)
 
+## echo command
+>this command is a built in utility that displays a line of text or string using the standard output.
+```
+echo -e devops
+```
+```
+echo \a devops
+```
+```
+echo -n devops
+```
+![echo](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/fd7a1c10-e1f8-4045-bd53-4b206dccb663)
+
+## zip, unzip command
+>this command will compress files and directories into a zip file, to archive or reduce disk space usage.
+```
+zip first.zip test.txt devops
+```
+![zip](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/0d48ae98-ebba-44e3-98f2-ef225c9ee993)
+```
+unzip first.zip
+```
+![unzip](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/028f7efc-8d1d-42d9-8a32-73db18b41f9b)
+
 ## 
