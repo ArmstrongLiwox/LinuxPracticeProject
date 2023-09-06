@@ -8,7 +8,7 @@ sudo apt upgrade
 ![sudo apt](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/f617f391-e1f9-44d1-b7d7-6a3dffac3668)
 
 
-## pwd command
+## 1. pwd command
 this commands finds the path of current working directory
 ```
 pwd
