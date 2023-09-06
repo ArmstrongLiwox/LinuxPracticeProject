@@ -5,6 +5,9 @@ sudo : superuser do performs tasks requiring administartive or root permissions
 ```
 sudo apt upgrade
 ```
+![sudo apt](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/f617f391-e1f9-44d1-b7d7-6a3dffac3668)
+
+
 ## pwd command
 this commands finds the path of current working directory
 ```
@@ -353,4 +356,104 @@ unzip first.zip
 ```
 ![unzip](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/028f7efc-8d1d-42d9-8a32-73db18b41f9b)
 
-## 
+## hostname command
+>this command will show the system's hostname or ip address
+```
+hostname
+```
+```
+hostname -i
+```
+```
+hostname -A
+```
+```
+hostname -alias
+```
+![hostname](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/b8eeb467-aadd-4c18-b9c9-df10aa3607e0)
+
+## useradd, userdel commands
+>the useradd command will create a new account
+>the passwd command allows you to add a password
+```
+useradd liwox
+```
+![useradd](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/7947f7fb-c1c7-4013-a9da-ebefb63b2a35)
+
+## apt-get command
+>this command handles advanced package tools (APT) in Linux.
+>it lets you retrive information and bundles from authenticated sources.
+```
+apt-get update
+```
+![apt-get](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/01e2a2d2-905e-4d34-ba69-715aeb205dce)
+
+## nano, vi, jed commands
+>the nano command denotes keywords
+```
+nano liwox.html
+```
+![nano](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/452509c7-aeb6-4559-9448-6900f8ccf8fb)
+>the vi command works in two modes
+ >insert and command: this can edit and create a text file
+ >perform operations such as copying, saving, openig and pasting a file.
+```
+vi liwox.html
+```
+![vi](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/bb0ccc95-73a0-4ef1-be59-eaad6e9697d7)
+>the jed has a dropdown interface that allows users to perform tasks without entering keyboard combinations or commands.
+```
+jed liwox.html
+```
+![jed](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/825bb395-42e2-42d4-bf8a-7b83af09f84d)
+
+## alias, unalias command
+> this command allows you to create a shortcut with the same functionality as a command, file name or text.
+```
+alias dv='devops'
+```
+> the unalias command deletes an existing alias
+```
+unalias dv
+```
+![alias](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/589b188e-61da-472d-9096-c00df3b35971)
+
+## su command
+>the su command allows you to run a program as a different user. it is beneficial for accessing the system through SSH or GUI display when root user is unavailable.
+```
+su
+```
+![su](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/8ac50819-ff2a-450e-9d74-34022fa483b6)
+
+## htop command
+>this command monitors system resources and server processes
+>htop command has additional features and improvements than the top command
+```
+htop -d
+```
+```
+htop -C
+```
+```
+htop -h
+```
+![htop](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/f29429ea-b61d-48f9-be13-f5a9b128b072)
+![htop 2](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/8938c292-173d-4153-9d27-c9504c16274e)
+
+## ps command
+>this command produces a snapshot of all the processes on your system.
+```
+ps -T
+```
+```
+ps -u
+```
+```
+ps -A
+```
+```
+ps -e
+```
+![Uploading ps.png…]()
+
+# THANK YOU
