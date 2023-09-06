@@ -245,3 +245,5 @@ tar -cvf newarchive.tar /home/ubuntu
 chmod 777 test.txt
 ```
 ![chmod](https://github.com/ArmstrongLiwox/LinuxPracticeProject/assets/143335106/0ca9acc0-3aa0-4374-b80c-66970faa04c7)
+
+##
